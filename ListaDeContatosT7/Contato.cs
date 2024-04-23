@@ -82,7 +82,7 @@ namespace ListaDeContatosT7
         public override string ToString()
         {
             string saida = string.Empty;
-            saida += String.Format("{0}, {1}", Nome, Sobrenome);
+            saida += String.Format("{0} {1} ", Nome, Sobrenome);
             saida += String.Format("({0}) {1}-{2}", 
                 Telefone.Substring(0, 2), 
                 Telefone.Substring(2,5), 
