@@ -118,7 +118,8 @@
             this.Controls.Add(this.textBoxSobrenome);
             this.Controls.Add(this.textBoxNome);
             this.Name = "Form1";
-            this.Text = "Form1";
+            this.Text = "Lista de Contatos";
+            this.Load += new System.EventHandler(this.Form1_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 
