@@ -36,6 +36,7 @@
             this.label3 = new System.Windows.Forms.Label();
             this.buttonIncluirContato = new System.Windows.Forms.Button();
             this.listBoxContatos = new System.Windows.Forms.ListBox();
+            this.buttonOrganiza = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // textBoxNome
@@ -88,9 +89,9 @@
             // 
             // buttonIncluirContato
             // 
-            this.buttonIncluirContato.Location = new System.Drawing.Point(64, 230);
+            this.buttonIncluirContato.Location = new System.Drawing.Point(26, 230);
             this.buttonIncluirContato.Name = "buttonIncluirContato";
-            this.buttonIncluirContato.Size = new System.Drawing.Size(252, 81);
+            this.buttonIncluirContato.Size = new System.Drawing.Size(140, 81);
             this.buttonIncluirContato.TabIndex = 7;
             this.buttonIncluirContato.Text = "Incluir Contato";
             this.buttonIncluirContato.UseVisualStyleBackColor = true;
@@ -104,11 +105,22 @@
             this.listBoxContatos.Size = new System.Drawing.Size(272, 277);
             this.listBoxContatos.TabIndex = 8;
             // 
+            // buttonOrganiza
+            // 
+            this.buttonOrganiza.Location = new System.Drawing.Point(200, 230);
+            this.buttonOrganiza.Name = "buttonOrganiza";
+            this.buttonOrganiza.Size = new System.Drawing.Size(140, 81);
+            this.buttonOrganiza.TabIndex = 9;
+            this.buttonOrganiza.Text = "Organizar";
+            this.buttonOrganiza.UseVisualStyleBackColor = true;
+            this.buttonOrganiza.Click += new System.EventHandler(this.buttonOrganiza_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(698, 344);
+            this.Controls.Add(this.buttonOrganiza);
             this.Controls.Add(this.listBoxContatos);
             this.Controls.Add(this.buttonIncluirContato);
             this.Controls.Add(this.label3);
@@ -135,6 +147,7 @@
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Button buttonIncluirContato;
         private System.Windows.Forms.ListBox listBoxContatos;
+        private System.Windows.Forms.Button buttonOrganiza;
     }
 }
 
